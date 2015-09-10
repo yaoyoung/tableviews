@@ -14,6 +14,7 @@
 		2D3A89E61B9C864F0064CB2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A89E51B9C864F0064CB2B /* Images.xcassets */; };
 		2D3A89E91B9C864F0064CB2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A89E71B9C864F0064CB2B /* LaunchScreen.xib */; };
 		2D3A89F51B9C864F0064CB2B /* tableviewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A89F41B9C864F0064CB2B /* tableviewsTests.m */; };
+		2D3A8A001B9C879E0064CB2B /* MoneyPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A89FF1B9C879E0064CB2B /* MoneyPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2D3A89EE1B9C864F0064CB2B /* tableviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3A89F31B9C864F0064CB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D3A89F41B9C864F0064CB2B /* tableviewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableviewsTests.m; sourceTree = "<group>"; };
+		2D3A89FE1B9C879E0064CB2B /* MoneyPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyPickerView.h; sourceTree = "<group>"; };
+		2D3A89FF1B9C879E0064CB2B /* MoneyPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				2D3A89DD1B9C864F0064CB2B /* AppDelegate.m */,
 				2D3A89DF1B9C864F0064CB2B /* ViewController.h */,
 				2D3A89E01B9C864F0064CB2B /* ViewController.m */,
+				2D3A89FE1B9C879E0064CB2B /* MoneyPickerView.h */,
+				2D3A89FF1B9C879E0064CB2B /* MoneyPickerView.m */,
 				2D3A89E21B9C864F0064CB2B /* Main.storyboard */,
 				2D3A89E51B9C864F0064CB2B /* Images.xcassets */,
 				2D3A89E71B9C864F0064CB2B /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3A89E11B9C864F0064CB2B /* ViewController.m in Sources */,
+				2D3A8A001B9C879E0064CB2B /* MoneyPickerView.m in Sources */,
 				2D3A89DE1B9C864F0064CB2B /* AppDelegate.m in Sources */,
 				2D3A89DB1B9C864F0064CB2B /* main.m in Sources */,
 			);
